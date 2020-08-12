@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "removeComments": false
+  },
+  "include": ["src", "types", "**/*.test.ts", "**/__mocks__/*.ts"]
+}
